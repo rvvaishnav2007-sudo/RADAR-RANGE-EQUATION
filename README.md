@@ -18,6 +18,11 @@ Procedure
 
 PROGRAM
 ~~~
+clc;
+clear;
+clf;
+
+
 Gt = 30;
 Gr = 30;
 lambda = 0.03; 
@@ -44,16 +49,18 @@ R2 = ((Pt_const .* Gt .* Gr .* lambda^2 .* sigma) ./ ...
 Pr_dB_values = 10*log10(Pr_values);
 
 subplot(2,1,2);
-plot( R2,Pr_dB_values);
+plot( R2/1000,Pr_dB_values);
 
 ~~~
 
 OUTPUT
-<img width="1577" height="852" alt="WhatsApp Image 2026-08-28 at 3 58 25 PM" src="https://github.com/user-attachments/assets/371b8855-3573-4c2e-8c73-fc7dad1327c1" />
+
+<img width="737" height="596" alt="Screenshot 2026-08-28 161521" src="https://github.com/user-attachments/assets/04a6b864-3c10-4dc7-85b9-f82537297a4e" />
 
 
 TABULR COLUMN
-<img width="1600" height="990" alt="WhatsApp Image 2026-08-28 at 3 59 37 PM" src="https://github.com/user-attachments/assets/eda33d5f-18ae-468e-887a-99ea6d401340" />
+<img width="1600" height="1062" alt="WhatsApp Image 2026-08-28 at 4 17 33 PM" src="https://github.com/user-attachments/assets/2dc01bb8-29bc-4b36-81d8-ad2e415e8d1d" />
+
 
 Result:
 
