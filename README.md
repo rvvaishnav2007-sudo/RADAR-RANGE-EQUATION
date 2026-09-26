@@ -59,7 +59,9 @@ OUTPUT
 
 
 TABULR COLUMN
-<img width="1600" height="1062" alt="WhatsApp Image 2026-08-28 at 4 17 33 PM" src="https://github.com/user-attachments/assets/2dc01bb8-29bc-4b36-81d8-ad2e415e8d1d" />
+
+<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/59c80249-a2e4-4d6c-abac-6e78d3a2a6ff" />
+
 
 
 Result:
